@@ -1,0 +1,14 @@
+{
+  "name": "ShipnEarn",
+  "description": "ShipnEarn is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://439a16fc-595f-4eb3-bcff-a7be25240742.vercel.app",
+  "properties": {
+    "app": {
+      "name": "ShipnEarn",
+      "description": "ShipnEarn is a Base Mini App built with Zara.",
+      "url": "https://439a16fc-595f-4eb3-bcff-a7be25240742.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
