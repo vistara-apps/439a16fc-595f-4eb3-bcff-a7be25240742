@@ -136,7 +136,7 @@ export default function HomePage() {
           
           <DeliveryCard
             delivery={selectedDelivery}
-            variant={userRole}
+            variant={userRole === 'dispatcher' ? 'dispatching' : 'courier'}
             onComplete={handleCompleteDelivery}
           />
         </div>
@@ -233,7 +233,7 @@ export default function HomePage() {
               <DeliveryCard
                 key={delivery.deliveryId}
                 delivery={delivery}
-                variant={userRole}
+                variant={userRole === 'dispatcher' ? 'dispatching' : 'courier'}
                 onAccept={handleAcceptDelivery}
                 onTrack={handleTrackDelivery}
                 onComplete={handleCompleteDelivery}
