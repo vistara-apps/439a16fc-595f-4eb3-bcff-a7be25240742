@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   description: 'Deliver locally, get paid instantly. Your decentralized bounty marketplace for deliveries.',
   keywords: ['delivery', 'blockchain', 'base', 'courier', 'bounty', 'decentralized'],
   authors: [{ name: 'ShipnEarn Team' }],
-  viewport: 'width=device-width, initial-scale=1',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({
